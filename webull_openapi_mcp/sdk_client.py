@@ -201,6 +201,9 @@ class WebullSDKClient:
         """
         cfg = self._config
 
+        # Set client source identifier so SDK can distinguish MCP calls from native SDK calls
+        os.environ.setdefault("WEBULL_CLIENT_SOURCE", "mcp")
+
         # Determine token check timeout based on mode
         if interactive:
             token_check_duration = 300
