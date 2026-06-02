@@ -1,3 +1,14 @@
+# ⚠️ DEPRECATED — This project is no longer maintained
+
+> **This repository has been deprecated and will be archived soon.**
+>
+> All development has moved to the new repository: **[webull-openapi-mcp](https://github.com/webull-inc/webull-openapi-mcp)**
+>
+> Please migrate to the new project for continued support, bug fixes, and new features.
+> No further updates will be made to this repository.
+
+---
+
 # Webull OpenAPI MCP Server
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
